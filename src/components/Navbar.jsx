@@ -1,4 +1,4 @@
-import logo from '../assets/react.svg'; // Make sure this path is correct
+import logo from '../assets/logomymy.png'; // Make sure this path is correct
 import { Github, Linkedin, Instagram } from 'lucide-react';
 
 const Navbar = () => {
@@ -8,6 +8,9 @@ const Navbar = () => {
             <a href="/" aria-label='Home'>
               <img src={logo} className='mx-2 w-10' alt="React Logo" />
             </a>
+             <span className="ml-2 text-xl font-semibold tracking-tight">
+                Shan Romesh
+              </span>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
             <a href="https://github.com/xlooser404" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="transition-transform hover:scale-125">
