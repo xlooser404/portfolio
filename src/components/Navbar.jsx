@@ -10,13 +10,13 @@ const Navbar = () => {
             </a>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="transition-transform hover:scale-125">
+            <a href="https://github.com/xlooser404" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="transition-transform hover:scale-125">
                 <Github />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="transition-transform hover:scale-125">
+            <a href="https://www.linkedin.com/in/-sromesh20051129/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="transition-transform hover:scale-125">
                 <Linkedin />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition-transform hover:scale-125">
+            <a href="https://www.instagram.com/_romesh_v_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition-transform hover:scale-125">
                 <Instagram />
             </a>
         </div>

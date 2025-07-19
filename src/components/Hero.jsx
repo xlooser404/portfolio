@@ -29,7 +29,7 @@ const Hero = () => {
                 {/* Text Content Section */}
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
-                        <motion.p 
+                        <motion.p
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
@@ -37,7 +37,7 @@ const Hero = () => {
                         >
                             Full-Stack Developer
                         </motion.p>
-                        <motion.h1 
+                        <motion.h1
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
@@ -45,13 +45,18 @@ const Hero = () => {
                         >
                             <span className="font-bold">Hello I'm</span> Shan Romesh
                         </motion.h1>
-                        <motion.p 
+                        <motion.p
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
                             className="my-2 max-w-xl py-6 font-light tracking-tighter text-center lg:text-left"
                         >
-                            I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
+                            Motivated and adaptable IT professional with a passion for technology
+                            and innovation. Skilled in problem-solving, collaboration, and delivering
+                            impactful solutions. Renowned for being a fast learner, a dependable
+                            team player, and dedicated to achieving excellence. Eager to contribute to
+                            dynamic organizations and grow through meaningful challenges while
+                            mastering modern technologies.
                         </motion.p>
                         <motion.div
                             variants={container(1.5)}
@@ -59,7 +64,11 @@ const Hero = () => {
                             animate="visible"
                             className="flex justify-center lg:justify-start"
                         >
-                             <a href="/cv.pdf" download className="flex items-center space-x-2 border border-green-400 text-green-400 px-4 py-2 rounded-md hover:bg-green-400 hover:text-white transition-colors duration-300">
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1yErsWJjlpN7OqPxS_RSmo3kyC2yoZIbx"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-2 border border-green-400 text-green-400 px-4 py-2 rounded-md hover:bg-green-400 hover:text-white transition-colors duration-300"
+                            >
                                 <span>DOWNLOAD CV</span>
                                 <Download size={20} />
                             </a>
@@ -72,14 +81,14 @@ const Hero = () => {
                     <div className="flex justify-center">
                         {/* Container for both image and SVG circle */}
                         <motion.div
-                             variants={imageAnimation(1.2)}
-                             initial="hidden"
-                             animate="visible"
-                             className="relative flex items-center justify-center h-96 w-96"
+                            variants={imageAnimation(1.2)}
+                            initial="hidden"
+                            animate="visible"
+                            className="relative flex items-center justify-center h-96 w-96"
                         >
                             {/* The SVG circle is positioned as an absolute background layer */}
-                            <motion.svg 
-                                viewBox="0 0 500 500" 
+                            <motion.svg
+                                viewBox="0 0 500 500"
                                 className="absolute h-full w-full"
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
@@ -98,10 +107,10 @@ const Hero = () => {
                                     transition={{ duration: 1.5, delay: 1.8, ease: "easeInOut" }}
                                 />
                             </motion.svg>
-                             {/* The profile image is centered on top */}
-                            <motion.img 
-                                src={profilePic} 
-                                alt="Luke Coleman" 
+                            {/* The profile image is centered on top */}
+                            <motion.img
+                                src={profilePic}
+                                alt="Luke Coleman"
                                 className="rounded-full w-80 h-80 object-cover"
                             />
                         </motion.div>
